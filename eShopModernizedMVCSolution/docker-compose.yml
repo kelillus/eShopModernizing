@@ -4,6 +4,8 @@ services:
   eshop.modernized.mvc:
     image: eshop/modernizedmvc
     build:
+      args: 
+        source: obj/Docker/publish/
       context: .\src\eShopModernizedMVC
       dockerfile: Dockerfile
     depends_on:
