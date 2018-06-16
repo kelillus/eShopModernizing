@@ -4,4 +4,4 @@ services:
   eshop.modernized.mvc:
     build:
       args:
-        source: "d:\kelyml"
+        source: d:\\kelyml
