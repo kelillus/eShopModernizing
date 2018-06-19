@@ -4,11 +4,12 @@ services:
   eshop.modernized.mvc:
     build:
       args:
-        source: D:\a
+        source: D:\
 
 #source: d:/kelyml/ \\?\C:\ProgramData\docker\tmp\docker-builder571952967\kelyml: The system cannot find the file specified
 #source: \\d\\kelyml\\ \\?\C:\ProgramData\docker\tmp\docker-builder172747747\d\kelyml: The system cannot find the path specified.
 #source: \\d:\\kelyml\\ \\?\C:\ProgramData\docker\tmp\docker-builder754633547\kelyml: The system cannot find the file specified.
 #source: D:\ No error
 #source: D:/a/1/s/ \\?\C:\ProgramData\docker\tmp\docker-builder188190259\a\1\s:  The system cannot find the path specified.
+#source: D:\a \\?\C:\ProgramData\docker\tmp\docker-builder980584439\a: The system cannot find the file specified.
 
