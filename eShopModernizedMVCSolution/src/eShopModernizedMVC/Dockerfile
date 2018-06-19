@@ -10,7 +10,7 @@ RUN powershell -command Get-ChildItem \
 RUN powershell -command Get-Location
 
 
-COPY \Obj .
+COPY \ .
 
 #Copy D:/a \\?\C:\ProgramData\docker\tmp\docker-builder852680135\a: The system cannot find the file specified.
 #COPY . . No error
