@@ -4,7 +4,7 @@ WORKDIR /inetpub/wwwroot
 EXPOSE 80
 RUN powershell -command Get-ChildItem .
 #COPY ${source:-obj/Docker/publish} .
-#COPY /obj/Docker .
+COPY /obj/Docker .
 RUN powershell -command Get-ChildItem .
 #Copy D:/a \\?\C:\ProgramData\docker\tmp\docker-builder852680135\a: The system cannot find the file specified.
 #COPY . . No error
