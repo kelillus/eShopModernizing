@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   eshop.modernized.mvc:
-    image: eshop/modernizedmvc
+    image: kelillus/modernizedmvcvsts
     depends_on:
       - sql.data
 
